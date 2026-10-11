@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>ObjectSinkFix</AssemblyName>
+    <RootNamespace>ObjectSinkFix</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Waltz.Modding.TLD.Il2CppAssemblies.Windows" Version="2.52.0" />
+    <PackageReference Include="LavaGang.MelonLoader" Version="0.7.2" />
+    <PackageReference Include="STBlade.Modding.TLD.ModSettings" Version="1.9.0" />
+  </ItemGroup>
+</Project>

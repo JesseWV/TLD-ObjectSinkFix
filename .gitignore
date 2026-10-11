@@ -1,0 +1,17 @@
+# Development material: investigation notes, evidence, RE tooling.
+# Not part of the release.
+_dev/
+
+# Build output
+bin/
+obj/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+*.dll
+*.pdb
+*.log
